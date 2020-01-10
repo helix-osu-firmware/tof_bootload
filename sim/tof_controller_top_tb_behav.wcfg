@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tof_controller_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tof_controller_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="528148010000fs"></ZoomStartTime>
+      <ZoomEndTime time="6838148010001fs"></ZoomEndTime>
+      <Cursor1Time time="3550859523000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/tof_controller_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group24" type="group">
+      <obj_property name="label">I2C Detail</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tof_controller_top_tb/sda_out" type="array">
+         <obj_property name="ElementShortName">sda_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sda_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/sda_t" type="array">
+         <obj_property name="ElementShortName">sda_t[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sda_t[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/sda_in" type="array">
+         <obj_property name="ElementShortName">sda_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sda_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/scl_out" type="array">
+         <obj_property name="ElementShortName">scl_out[1:0]</obj_property>
+         <obj_property name="ObjectShortName">scl_out[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/scl_t" type="array">
+         <obj_property name="ElementShortName">scl_t[1:0]</obj_property>
+         <obj_property name="ObjectShortName">scl_t[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/scl_in" type="array">
+         <obj_property name="ElementShortName">scl_in[1:0]</obj_property>
+         <obj_property name="ObjectShortName">scl_in[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/sda_io" type="array">
+         <obj_property name="ElementShortName">sda_io[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sda_io[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/scl_io" type="array">
+         <obj_property name="ElementShortName">scl_io[1:0]</obj_property>
+         <obj_property name="ObjectShortName">scl_io[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group373" type="group">
+      <obj_property name="label">Bus 1 I2C</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tof_controller_top_tb/scl_io[1]" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+         <obj_property name="label">Bus 1 SCL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/sda_io[1]" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+         <obj_property name="label">Bus 1 SDA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/bus1_busy" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">bus1_busy</obj_property>
+         <obj_property name="ObjectShortName">bus1_busy</obj_property>
+         <obj_property name="label">Bus 1 Busy</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group374" type="group">
+      <obj_property name="label">Bus 0 I2C</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tof_controller_top_tb/scl_io[0]" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">Bus 0 SCL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/sda_io[0]" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+         <obj_property name="label">Bus 0 SDA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/bus0_busy" type="logic">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">bus0_busy</obj_property>
+         <obj_property name="ObjectShortName">bus0_busy</obj_property>
+         <obj_property name="label">Bus 0 Busy</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tof_controller_top_tb/gpio0/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tof_controller_top_tb/sw4/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tof_controller_top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group27" type="group">
+      <obj_property name="label">Status</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tof_controller_top_tb/init" type="logic">
+         <obj_property name="ElementShortName">init</obj_property>
+         <obj_property name="ObjectShortName">init</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/init_skip" type="logic">
+         <obj_property name="ElementShortName">init_skip</obj_property>
+         <obj_property name="ObjectShortName">init_skip</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/init_done" type="logic">
+         <obj_property name="ElementShortName">init_done</obj_property>
+         <obj_property name="ObjectShortName">init_done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/ready" type="logic">
+         <obj_property name="ElementShortName">ready</obj_property>
+         <obj_property name="ObjectShortName">ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/update" type="logic">
+         <obj_property name="ElementShortName">update</obj_property>
+         <obj_property name="ObjectShortName">update</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/updating" type="logic">
+         <obj_property name="ElementShortName">updating</obj_property>
+         <obj_property name="ObjectShortName">updating</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/update_complete" type="logic">
+         <obj_property name="ElementShortName">update_complete</obj_property>
+         <obj_property name="ObjectShortName">update_complete</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group26" type="group">
+      <obj_property name="label">Configuration</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tof_controller_top_tb/cfg_addr" type="array">
+         <obj_property name="ElementShortName">cfg_addr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_addr[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/cfg_data" type="array">
+         <obj_property name="ElementShortName">cfg_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_data[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">Monitoring</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tof_controller_top_tb/mon_rate" type="array">
+         <obj_property name="ElementShortName">mon_rate[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mon_rate[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/mon_addr" type="array">
+         <obj_property name="ElementShortName">mon_addr[6:0]</obj_property>
+         <obj_property name="ObjectShortName">mon_addr[6:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/mon_data" type="array">
+         <obj_property name="ElementShortName">mon_data[15:0]</obj_property>
+         <obj_property name="ObjectShortName">mon_data[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/mon_wr" type="logic">
+         <obj_property name="ElementShortName">mon_wr</obj_property>
+         <obj_property name="ObjectShortName">mon_wr</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tof_controller_top_tb/gpio" type="array">
+      <obj_property name="ElementShortName">gpio[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">gpio[3:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group63" type="group">
+      <obj_property name="label">PicoBlaze</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/kcpsm6_opcode" type="array">
+         <obj_property name="ElementShortName">kcpsm6_opcode[1:19]</obj_property>
+         <obj_property name="ObjectShortName">kcpsm6_opcode[1:19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/kcpsm6_status" type="array">
+         <obj_property name="ElementShortName">kcpsm6_status[1:16]</obj_property>
+         <obj_property name="ObjectShortName">kcpsm6_status[1:16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_rom/dbg_instr" type="array">
+         <obj_property name="ElementShortName">dbg_instr[383:0]</obj_property>
+         <obj_property name="ObjectShortName">dbg_instr[383:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="group92" type="group">
+         <obj_property name="label">Stack Depth</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/stack_pointer" type="array">
+            <obj_property name="ElementShortName">stack_pointer[4:0]</obj_property>
+            <obj_property name="ObjectShortName">stack_pointer[4:0]</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+            <obj_property name="CellHeight">100</obj_property>
+            <obj_property name="AnalogYRangeType">ANALOG_YRANGETYPE_FIXED</obj_property>
+            <obj_property name="AnalogYRangeMin">4.52394</obj_property>
+            <obj_property name="AnalogYRRangeMax">3.80519</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/address" type="array">
+         <obj_property name="ElementShortName">address[11:0]</obj_property>
+         <obj_property name="ObjectShortName">address[11:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/in_port" type="array">
+         <obj_property name="ElementShortName">in_port[7:0]</obj_property>
+         <obj_property name="ObjectShortName">in_port[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/out_port" type="array">
+         <obj_property name="ElementShortName">out_port[7:0]</obj_property>
+         <obj_property name="ObjectShortName">out_port[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/port_id" type="array">
+         <obj_property name="ElementShortName">port_id[7:0]</obj_property>
+         <obj_property name="ObjectShortName">port_id[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/write_strobe" type="logic">
+         <obj_property name="ElementShortName">write_strobe</obj_property>
+         <obj_property name="ObjectShortName">write_strobe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/k_write_strobe" type="logic">
+         <obj_property name="ElementShortName">k_write_strobe</obj_property>
+         <obj_property name="ObjectShortName">k_write_strobe</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/read_strobe" type="logic">
+         <obj_property name="ElementShortName">read_strobe</obj_property>
+         <obj_property name="ObjectShortName">read_strobe</obj_property>
+      </wvobject>
+      <wvobject fp_name="group60" type="group">
+         <obj_property name="label">Registers</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s0" type="array">
+            <obj_property name="ElementShortName">sim_s0[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s0[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s1" type="array">
+            <obj_property name="ElementShortName">sim_s1[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s1[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s2" type="array">
+            <obj_property name="ElementShortName">sim_s2[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s2[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s3" type="array">
+            <obj_property name="ElementShortName">sim_s3[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s3[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s4" type="array">
+            <obj_property name="ElementShortName">sim_s4[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s4[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s5" type="array">
+            <obj_property name="ElementShortName">sim_s5[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s5[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s6" type="array">
+            <obj_property name="ElementShortName">sim_s6[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s6[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s7" type="array">
+            <obj_property name="ElementShortName">sim_s7[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s7[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s8" type="array">
+            <obj_property name="ElementShortName">sim_s8[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s8[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_s9" type="array">
+            <obj_property name="ElementShortName">sim_s9[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_s9[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_sA" type="array">
+            <obj_property name="ElementShortName">sim_sA[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_sA[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_sB" type="array">
+            <obj_property name="ElementShortName">sim_sB[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_sB[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_sC" type="array">
+            <obj_property name="ElementShortName">sim_sC[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_sC[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_sD" type="array">
+            <obj_property name="ElementShortName">sim_sD[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_sD[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_sE" type="array">
+            <obj_property name="ElementShortName">sim_sE[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_sE[7:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tof_controller_top_tb/uut/u_picoblaze/sim_sF" type="array">
+            <obj_property name="ElementShortName">sim_sF[7:0]</obj_property>
+            <obj_property name="ObjectShortName">sim_sF[7:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tof_controller_top_tb/bus0_mon" type="array">
+      <obj_property name="ElementShortName">bus0_mon[47:0]</obj_property>
+      <obj_property name="ObjectShortName">bus0_mon[47:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tof_controller_top_tb/bus1_mon" type="array">
+      <obj_property name="ElementShortName">bus1_mon[47:0]</obj_property>
+      <obj_property name="ObjectShortName">bus1_mon[47:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group356" type="group">
+      <obj_property name="label">ADC0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tof_controller_top_tb/adc0/sda_o" type="logic">
+         <obj_property name="ElementShortName">sda_o</obj_property>
+         <obj_property name="ObjectShortName">sda_o</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/adc0/state" type="array">
+         <obj_property name="ElementShortName">state[2:0]</obj_property>
+         <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/adc0/mem_do" type="array">
+         <obj_property name="ElementShortName">mem_do[7:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_do[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/adc0/sr" type="array">
+         <obj_property name="ElementShortName">sr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/adc0/rw" type="logic">
+         <obj_property name="ElementShortName">rw</obj_property>
+         <obj_property name="ObjectShortName">rw</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/adc0/sta" type="logic">
+         <obj_property name="ElementShortName">sta</obj_property>
+         <obj_property name="ObjectShortName">sta</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/adc0/d_sta" type="logic">
+         <obj_property name="ElementShortName">d_sta</obj_property>
+         <obj_property name="ObjectShortName">d_sta</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/adc0/sto" type="logic">
+         <obj_property name="ElementShortName">sto</obj_property>
+         <obj_property name="ObjectShortName">sto</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tof_controller_top_tb/adc0/d_sto" type="logic">
+         <obj_property name="ElementShortName">d_sto</obj_property>
+         <obj_property name="ObjectShortName">d_sto</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tof_controller_top_tb/switch" type="array">
+      <obj_property name="ElementShortName">switch[1:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">switch[1:0][31:0]</obj_property>
+   </wvobject>
+</wave_config>
